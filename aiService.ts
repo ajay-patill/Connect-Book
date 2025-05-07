@@ -1,7 +1,7 @@
 import { generateId } from './utils';
 
-const API_KEY = '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';
-const API_URL = 'https://api.genstack.ai/v1/generate';
+const API_KEY = '';
+const API_URL = '';
 
 export async function generateLectureSummary(title: string, subject: string, transcription: string): Promise<string> {
   try {
